@@ -1,0 +1,57 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Overwatch facts hichi</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <a href="index.html">Startsida</a>
+    <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">overwatch</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="menyval1.html">McCree</a></li>
+                        <li><a href="menyval2.html">Hanzo</a></li>
+                        <li><a href="menyval3.html">My games and animations</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+
+   <p> Hanzo is a bow and arrow character in Overwatch. He has two abilities so the first one is that he shoots a scatter arrow. If you shoot at something with the scatter arrow the arrow splits into six arrows and bounces at things. 1 scatter arrow arrow does the same damage as a normal arrow. Then he has ability two that is sonic arrow. If you shoot the sonic arror at something the whole team can se enemies threw the walls that is around ten meters from the arrow. And he also have an ultimate ability that needs to be 100% charged to be used by the player. When he uses his ability he shoots an arrow that tranforms into a dragon after 1.4 seconds and the dragon flight all the way till it gets out of the map. Hanzo is 38 years old and his real name is Hanzo Shimada. Hope you learned something new :)</p>
+    
+    <img src="bilder/hanzo.png"> This is how he looks like.
+    </main>
+</body>
+</html>
